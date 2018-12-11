@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
+      href="https://fonts.googleapis.com/css?family=Ultra"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+      integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
     />
@@ -13,18 +23,30 @@
   </head>
   <body>
     <div class="container">
-      <h1>My Song List</h1>
+      <h1 class="main-title">
+        <i class="fas fa-headphones fa-2x"></i>&nbsp; My Song List&nbsp;
+        <i class="fas fa-headphones fa-2x"></i>
+      </h1>
       <form id="song-form">
         <div>
-          <label for="title">Title</label>
+          <label for="title"
+            ><i class="fas fa-music"></i>&nbsp; - Title - &nbsp;
+            <i class="fas fa-music fa-flip-horizontal"></i
+          ></label>
           <input type="text" id="title" class="inp u-full-width" />
         </div>
         <div>
-          <label for="artist">Artist</label>
+          <label for="artist"
+            ><i class="fas fa-guitar"></i>&nbsp; - Artist - &nbsp;
+            <i class="fas fa-guitar fa-flip-horizontal"></i
+          ></label>
           <input type="text" id="artist" class="inp u-full-width" />
         </div>
         <div>
-          <label for="comment">Comment</label>
+          <label for="comment"
+            ><i class="fas fa-drum"></i>&nbsp; - Comment - &nbsp;
+            <i class="fas fa-drum fa-flip-horizontal"></i
+          ></label>
           <input type="text" id="comment" class="inp u-full-width" />
         </div>
         <input type="submit" value="Add Song" class="button u-full-width" />

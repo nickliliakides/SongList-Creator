@@ -6,9 +6,25 @@ body {
   color: rgba(180, 6, 6, 0.932);
   text-shadow: 2px 2px 1px rgba(155, 151, 151, 0.9);
 }
-h1 {
-  font-weight: bolder;
+th {
+  font-size: 28px;
+}
+.main-title {
+  font-family: "Ultra", serif;
+  /* font-weight: bolder; */
   text-align: center;
+}
+.fa-2x:hover {
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 a {
   color: rgba(180, 6, 6, 0.932);
