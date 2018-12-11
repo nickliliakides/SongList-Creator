@@ -7,10 +7,10 @@ body {
   text-shadow: 2px 2px 1px rgba(155, 151, 151, 0.9);
 }
 th {
-  font-size: 28px;
+  font-size: 28px !important;
 }
 .main-title {
-  font-family: "Ultra", serif;
+  font-family: "Ultra", serif !important;
   /* font-weight: bolder; */
   text-align: center;
 }
@@ -24,7 +24,7 @@ th {
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
+  transform: rotate(360deg) !important;
 }
 a {
   color: rgba(180, 6, 6, 0.932);
