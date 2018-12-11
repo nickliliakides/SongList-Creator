@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Song List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Song List</h1>
+      <form id="song-form">
+        <div>
+          <label for="title">Title</label>
+          <input type="text" id="title" class="inp u-full-width" />
+        </div>
+        <div>
+          <label for="artist">Artist</label>
+          <input type="text" id="artist" class="inp u-full-width" />
+        </div>
+        <div>
+          <label for="comment">Comment</label>
+          <input type="text" id="comment" class="inp u-full-width" />
+        </div>
+        <input type="submit" value="Add Song" class="button u-full-width" />
+      </form>
+
+      <table id="songs-table" class="u-full-width">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Comment</th>
+            <th id="hiden">Id</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="song-list"></tbody>
+      </table>
+      <button class="button u-full-width" id="clear-all">
+        Clear All Songs
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

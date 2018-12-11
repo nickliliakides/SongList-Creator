@@ -1,0 +1,46 @@
+body {
+  background-image: url("piano.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-size: 20px;
+  color: rgba(180, 6, 6, 0.932);
+  text-shadow: 2px 2px 1px rgba(155, 151, 151, 0.9);
+}
+h1 {
+  font-weight: bolder;
+  text-align: center;
+}
+a {
+  color: rgba(180, 6, 6, 0.932);
+}
+.inp {
+  opacity: 0.8;
+}
+.success,
+.error {
+  color: aliceblue;
+  padding: 6px;
+  margin: 5px 0 15px 0;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.success {
+  background: green;
+}
+.error {
+  background: red;
+}
+.button {
+  background-color: rgb(223, 236, 200) !important;
+}
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 2px 4px rgba(155, 151, 151, 0.9);
+}
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0.5px 1px 2px rgba(155, 151, 151, 0.9);
+}
+#hiden {
+  display: none;
+}
