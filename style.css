@@ -28,6 +28,7 @@ th {
 }
 a {
   color: rgba(180, 6, 6, 0.932);
+  text-decoration:none;
 }
 .inp {
   opacity: 0.8;
