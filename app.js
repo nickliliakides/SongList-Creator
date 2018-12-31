@@ -1,4 +1,4 @@
-let counter = 0;
+let counter =  Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
 // Song class
 class Song{
   
